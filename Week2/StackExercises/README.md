@@ -1,8 +1,8 @@
 # Exercise1
 
 ### Exercise 1:
-![Exercise1](./assets/Exercise1.png)
-![Exercise2](./assets/Exercise2.png)
+![Exercise1](./assets/Exercise1.PNG)
+![Exercise2](./assets/Exercise2.PNG)
 
 ## How to run
 ### 1. Build Docker Image
