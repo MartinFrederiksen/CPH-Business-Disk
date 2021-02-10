@@ -1,3 +1,5 @@
+using System;
+
 namespace StackExercises.Stacks
 {
     public class LinkedStack<T> : IStack<T>
@@ -35,8 +37,8 @@ namespace StackExercises.Stacks
             top = new Node(item, top);
         }
 
-        public bool isEmpty(){
-            return top == null;
+        public void isEmpty(){
+            if(top == null) throw new IndexOutOfRangeException();
         }
     }
 }

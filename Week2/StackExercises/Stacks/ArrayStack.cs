@@ -1,3 +1,5 @@
+using System;
+
 namespace StackExercises.Stacks
 {
     public class ArrayStack<T> : IStack<T>
@@ -11,11 +13,13 @@ namespace StackExercises.Stacks
 
         public T peek()
         {
+            isEmpty();
             return stack[pointer - 1];
         }
 
         public T pop()
         {
+            isEmpty();
             return stack[--pointer];
         }
 
@@ -24,8 +28,8 @@ namespace StackExercises.Stacks
             stack[pointer++] = item;
         }
 
-        public bool isEmpty() {
-            return stack.Length <= 0;
+        public void isEmpty() {
+            if(stack.Length <= 0) throw new IndexOutOfRangeException();
         }
     }
 }
