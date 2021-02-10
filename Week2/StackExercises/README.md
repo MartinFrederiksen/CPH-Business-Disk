@@ -2,6 +2,7 @@
 
 ### Exercise 1:
 ![Exercise1](./assets/Exercise1.PNG)
+### Exercise 2:
 ![Exercise2](./assets/Exercise2.PNG)
 
 ## How to run
