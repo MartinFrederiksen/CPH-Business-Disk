@@ -1,6 +1,6 @@
 # Assignment 2
 
-![Assignement](./assets/Assignment.PNG)
+![Assignement](./assets/Assignment.PNG =100%x)
 ## How to run
 ### 1. Build Docker Image
 ```
