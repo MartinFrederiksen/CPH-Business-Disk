@@ -1,7 +1,7 @@
 # Assignment 2
 
 
-<img style="width: 100vw;" src="./assets/Assignment.PNG"/>
+<img style="width: 100%;" src="./assets/Assignment.PNG"/>
 
 ## How to run
 ### 1. Build Docker Image
