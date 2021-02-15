@@ -1,6 +1,8 @@
 # Assignment 2
 
-![Assignement](./assets/Assignment.PNG =100%x)
+
+<img style="width: 100vw;" src="./assets/Assignment.PNG"/>
+
 ## How to run
 ### 1. Build Docker Image
 ```
