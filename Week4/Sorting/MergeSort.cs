@@ -25,7 +25,7 @@ namespace Week4.Sorting
         }
 
         while (i < leftLength) {
-            arr[k++] =temp[left + i++];
+            arr[k++] = temp[left + i++];
         }
     
         while (j < rightLength) {
