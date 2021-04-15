@@ -12,7 +12,7 @@ namespace week8
 
         public void put(string variableName, IValueSet valueSet)
         {
-            throw new System.NotImplementedException();
+            variables.Add(variableName, valueSet);
         }
 
         public void put(string variableName)
@@ -23,7 +23,7 @@ namespace week8
 
         public IValueSet valuesOf(string variableName) 
         {
-            return null;
+            return variables[variableName];
         }
         
         public bool subStateOf(IState other) 

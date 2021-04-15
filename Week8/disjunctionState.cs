@@ -1,11 +1,11 @@
 namespace week8
 {
-    public class conjunctionState : IState
+    public class disjunctionState : IState
     {
         private IState left;
         private IState right;
 
-        public conjunctionState(IState left, IState right) {
+        public disjunctionState(IState left, IState right) {
             this.left = left;
             this.right = right;
         }
@@ -15,10 +15,9 @@ namespace week8
             throw new System.NotImplementedException();
         }
 
-        public bool subStateOf(IState other) 
+        public bool subStateOf(IState other)
         {
             throw new System.NotImplementedException();
         }
-
     }
 }

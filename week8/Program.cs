@@ -35,18 +35,18 @@ namespace week8
             */
 
             /*
-            public static void main(String[] args) {
-                State P = new XState(...); // precondition
-                State Q = new XState(...); // postcondition
-                SyntaxtTree C = new XSyntaxTree(...) // commands / code / program
-                State S = C.analyse(P);
+            static void main(String[] args) {
+                IState P = new IState(...); // precondition
+                IState Q = new IState(...); // postcondition
+                ISyntaxtTree C = new ISyntaxTree(...) // commands / code / program
+                IState S = C.analyse(P);
                 if (S.subStateOf(Q))
                 {
-                    System.out.println("Hurra!");
+                    Console.WriteLine("Hurra!");
                 }
                 else
                 {
-                    System.out.println("Øv!");
+                    Console.WriteLine("Øv!");
                 }
             }
             */

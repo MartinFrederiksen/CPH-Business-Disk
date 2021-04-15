@@ -12,9 +12,9 @@ namespace week8
         {
             return new unionValueSet(this, other);
         }
-        // ValueSet intersection(ValueSet other)
-        // {
-        //     return new unionValueSet(this, other);
-        // }
+        IValueSet intersection(IValueSet other)
+        {
+            return new intersectionValueSet(this, other);
+        }
     }
 }

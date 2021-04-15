@@ -7,8 +7,8 @@ namespace week8
         IState conjunction(IState other) { // and
             return new conjunctionState(this, other);
         }
-        // IState disjunction(IState other) { // or
-        //     return new disjunction(this, other);
-        // }
+        IState disjunction(IState other) { // or
+            return new disjunctionState(this, other);
+        }
     }
 }
