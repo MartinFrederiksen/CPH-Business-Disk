@@ -8,7 +8,7 @@ namespace Exercise.wgraph
         static void Main(string[] args)
         {
             IGraphFactory factory = new GraphFactoryImpl();
-            IGraph myGraph = factory.readFromFile("./test");
+            IGraph myGraph = factory.readFromFile("./Problems/GraphTest");
             Console.WriteLine(myGraph.ToString());
             
             //Console.WriteLine(gii.toString());
@@ -16,7 +16,7 @@ namespace Exercise.wgraph
             // while(emm.MoveNext())
             // {
             //     Console.WriteLine(emm.Current);
-            // }
+            // // }
             AStar.Run("./Problems/ProblemA.txt");
             AStar.Run("./Problems/ProblemB.txt");
             AStar.Run("./Problems/ProblemC.txt");
